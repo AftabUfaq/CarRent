@@ -31,8 +31,6 @@ router.get('/', async (req, res, next) => {
   }catch(err){
     res.status(200).json({status:false,error: err.message });
   }
-
-
 });
 
 router.get('/:id', async (req, res, next) => {
