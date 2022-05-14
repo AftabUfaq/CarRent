@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const URI = 'mongodb+srv://winchit:winchit%40123@cluster0.kipic.mongodb.net/myFirstDatabase?authSource=admin&replicaSet=atlas-am4m98-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true';
+const URI = 'mongodb+srv://aftabameen:41453@cluster0.snj8d.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 
 
 const connectDB = async () => {
