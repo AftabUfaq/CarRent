@@ -1,4 +1,4 @@
-import mongoose from 'mongoose';
+const mongoose = require('mongoose');
 const transactionsSchema = new  mongoose.Schema({
     status: {
         type: String,
