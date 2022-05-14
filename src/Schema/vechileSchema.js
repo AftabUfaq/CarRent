@@ -21,8 +21,7 @@ const vechileSchema = new  mongoose.Schema({
 		ref: 'user',
 		required: true
 	},
-
-
 });
 
+vechileSchema.clearIndexes()
 module.exports = mongoose.model('vehicle', vechileSchema);

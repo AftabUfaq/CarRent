@@ -4,7 +4,7 @@ const userSchema = new  mongoose.Schema({
         type: String,
         required:true
     },
-    mobilenumber:  {
+    mobile:  {
         type: String,
         required:true,
         unique:true
@@ -33,5 +33,6 @@ const userSchema = new  mongoose.Schema({
     },
 });
 
+userSchema.clearIndexes()
 module.exports = mongoose.model('user', userSchema);
 
